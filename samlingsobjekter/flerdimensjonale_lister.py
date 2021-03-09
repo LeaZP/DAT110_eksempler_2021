@@ -1,0 +1,13 @@
+liste = list()
+print(liste)
+print("---")
+liste.append([1,2,3,4])
+print(liste)
+print("---")
+liste.append([4,3,2,1,])
+print(liste)
+print("---")
+print(liste[0])
+print("---")
+print(liste[0][2])
+
