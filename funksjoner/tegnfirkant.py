@@ -17,8 +17,18 @@ def funksjon_uten_parametre():
 
 
 if __name__ == "__main__":
-    lag_firkant_av_tegn(6, 4, )
+    lag_firkant_av_tegn(6, 4)
     print()
     lag_firkant_av_tegn(5, 6, "#")
+    print()
+    lag_firkant_av_tegn(3, 2, "%")
+    print()
+    lag_firkant_av_tegn(8, 7, ".")
+    print()
     lag_firkant_av_tegn(tegn="%", bredde=3, hoyde=2)
+    print()
+    lag_firkant_av_tegn(hoyde=5, bredde=3)
+
+    # Kall til funksjoner uten parametre må fortsatt ha parenteser etter.
+    # Dette skiller funksjoner fra variabler
     funksjon_uten_parametre()
